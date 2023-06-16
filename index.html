@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BATCH-1 LECTURE-55 </title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+
+        <script>
+            // Naming Convention In Js
+            // camelCase for variable and Function/Method
+            var kritiKiran; // Decleration
+            var shrutiSuman; // Decleration
+            kritiKiran=20;  // Initialization
+            shrutiSuman=40; // Initialization
+
+            console.log("kritiKiran"+'shrutiSuman');
+
+            var smriti;
+            smriti=30;
+            console.log(smriti);
+
+            /*const PI=3.14;
+            PI=5;
+            console.log(PI);*/
+
+            // Ato Z
+
+            // 1. Function Defination
+            function myFunctionA(name){ // name is the formal argument/Parameter
+                // Function body
+                console.log("Hello " +name);
+                myFunctionB('Hello'+ " " +name)
+            }
+
+            // 2. Function Calling
+            myFunctionA("Kriti"); // Actual Arguement/parameter
+
+
+            // 1. Function Defination (One time process)
+            function myFunctionB(msg){
+                // Function body
+                console.log(msg+ " How are You? ");
+            }
+
+            // 2. Function Calling (Many time Process)
+            myFunctionB('agyasha'); // agyasha is a actual parameter
+            myFunctionA('shurbhi');
+
+            // 1. Function Defination (One time process)
+            function myFunctionC(x,y){
+                // Function body
+                console.log(x+y); // Formal arguement
+            }
+            // 2. Function calling (Many time Process)
+            myFunctionC(20,26); // Actual arguement
+
+            // 1. Function Defination (One time process)
+            function myFunctionD(p,q){
+                // Function body
+                console.log(p+q); // Formal arguement
+            }
+            // 2. Function calling (Many time Process)
+            myFunctionD('20','26'); // Actual arguement
+
+            // 1. Function Defination (One time process)
+            function myFunctionE(fn,ln){
+                // Function body
+                console.log("My name is "+fn +' '+ ln); // Formal arguement
+            }
+            // 2. Function calling (Many time Process)
+            myFunctionE("KRITI", "KIRAN"); // Actual arguement
+
+        </script>
+    </body>
+</html>
